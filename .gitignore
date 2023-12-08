@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+.idea/
+.run/
+
+node_modules
+
+dist/
+
+*.js
+*.js.map
