@@ -1,11 +1,11 @@
 {
-  "name": "mnb-static-resources",
-  "version": "1.7.0",
+  "name": "nmcp-static-resources",
+  "version": "2.0.0",
   "main": "dist/app.js",
-  "repository": "https://github.com/MouseLightPipeline/mnb-static-resources.git",
+  "repository": "https://github.com/AllenNeuralDynamics/nmcp-static-resources",
   "author": "Patrick Edson <pedson@leapscientific.com>",
   "license": "SEE LICENSE IN LICENSE",
-  "dockerRepository": "mouselightdatabrowser",
+  "dockerRepository": "leapscientific",
   "dockerImageName": "static-resources",
   "private": true,
   "scripts": {

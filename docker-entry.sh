@@ -2,10 +2,10 @@
 
 logName=$(date '+%Y-%m-%d_%H-%M-%S');
 
-mkdir -p /var/log/mnb
+mkdir -p /var/log/nmcp
 
 wait
 
 export DEBUG=mnb*
 
-node app.js >> /var/log/mnb/${HOSTNAME}-${logName}.log 2>&1
+node app.js >> /var/log/nmcp/${HOSTNAME}-${logName}.log 2>&1
