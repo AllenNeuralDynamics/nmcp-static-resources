@@ -5,17 +5,10 @@
   "repository": "https://github.com/AllenNeuralDynamics/nmcp-static-resources",
   "author": "Patrick Edson <pedson@leapscientific.com>",
   "license": "SEE LICENSE IN LICENSE",
-  "dockerRepository": "leapscientific",
-  "dockerImageName": "static-resources",
   "private": true,
   "scripts": {
     "debug": "node --trace-deprecation src/app.js",
-    "start": "tsc && gulp build && cd dist && node --trace-deprecation app.js",
-    "clean": "tsc && gulp clean",
-    "compile": "tsc && gulp compile",
-    "build": "tsc && gulp build",
-    "docker-build": "tsc && gulp docker-build",
-    "docker-release": "tsc && gulp release"
+    "start": "tsc && gulp build && cd dist && node --trace-deprecation app.js"
   },
   "dependencies": {
     "apollo-server-express": "^2.19.1",
