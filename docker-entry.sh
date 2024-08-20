@@ -8,4 +8,4 @@ wait
 
 export DEBUG=mnb*
 
-node app.js >> /var/log/nmcp/${HOSTNAME}-${logName}.log 2>&1
+node app.js >> /var/log/nmcp/$nmcp-{HOSTNAME}-${logName}.log 2>&1
